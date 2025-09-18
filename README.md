@@ -1,4 +1,4 @@
-<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-kategori-create-2025-09-18-21_43_13" src="https://github.com/user-attachments/assets/ae7b6267-1b62-4112-87e7-2eb637950cdd" /># SISTEM MANAJEMEN ARSIP SURAT
+# SISTEM MANAJEMEN ARSIP SURAT
 
 Aplikasi web sederhana yang dibangun untuk memenuhi tugas sertifikasi. Aplikasi ini berfungsi untuk mengelola dan mengarsipkan surat-surat resmi dalam format PDF secara digital.
 
