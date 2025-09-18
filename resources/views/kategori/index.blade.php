@@ -17,9 +17,9 @@
     <div class="sidebar">
         <h4>Menu</h4>
         <hr>
-        <a href="{{ route('arsip.index') }}">★ Arsip</a>
-        <a href="{{ route('kategori.index') }}" class="active">🗄️ Kategori Surat</a>
-        <a href="{{ route('about') }}">ℹ️ About</a>
+        <a href="{{ route('arsip.index') }}">Arsip</a>
+        <a href="{{ route('kategori.index') }}" class="active">Kategori Surat</a>
+        <a href="{{ route('about') }}">About</a>
     </div>
 
     <div class="content">

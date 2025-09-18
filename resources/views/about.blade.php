@@ -18,9 +18,9 @@
     <div class="sidebar">
         <h4>Menu</h4>
         <hr>
-        <a href="{{ route('arsip.index') }}">★ Arsip</a>
-        <a href="{{ route('kategori.index') }}">🗄️ Kategori Surat</a>
-        <a href="{{ route('about') }}" class="active">ℹ️ About</a>
+        <a href="{{ route('arsip.index') }}">Arsip</a>
+        <a href="{{ route('kategori.index') }}">Kategori Surat</a>
+        <a href="{{ route('about') }}" class="active">About</a>
     </div>
 
     <div class="content">
@@ -33,7 +33,7 @@
                 <p><strong>Nama:</strong> Muhammad Rifky Ramadhan</p>
                 <p><strong>NIM:</strong> 2331730044</p>
                 <p><strong>Prodi:</strong> D3-MI PSDKU Kediri</p>
-                <p><strong>Tanggal:</strong> 15 September 2025</p>
+                <p><strong>Tanggal:</strong> 18 September 2025</p>
             </div>
         </div>
     </div>
