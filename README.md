@@ -47,31 +47,24 @@ Berikut adalah beberapa tangkapan layar dari aplikasi Arsip Surat:
 
 **1. Halaman Utama (Daftar Arsip Surat)**
 *Menampilkan semua surat yang telah diarsipkan dengan fungsionalitas pencarian.*
-![Halaman Utama](<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-2025-09-18-21_34_44" src="https://github.com/user-attachments/assets/1810a473-5b46-47e7-80da-2a4b507653fd" />)
-
+![screencapture-127-0-0-1-8000-2025-09-18-21_34_44](https://github.com/user-attachments/assets/1810a473-5b46-47e7-80da-2a4b507653fd)
 
 **2. Halaman Unggah Surat**
 *Form untuk mengunggah surat baru beserta file PDF.*
-![Halaman Unggah](<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-arsip-create-2025-09-18-21_36_46" src="https://github.com/user-attachments/assets/4dc2142a-1285-4ffb-adcf-211324179b76" />
-)
+![screencapture-127-0-0-1-8000-arsip-create-2025-09-18-21_36_46](https://github.com/user-attachments/assets/4dc2142a-1285-4ffb-adcf-211324179b76)
 
 **3. Halaman Lihat Surat**
 *Menampilkan detail surat beserta pratinjau file PDF.*
-![Halaman Lihat](<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-arsip-12-2025-09-18-21_41_51" src="https://github.com/user-attachments/assets/e0189c44-4d89-4ef3-a6ad-28757ba35cae" />
-)
+![screencapture-127-0-0-1-8000-arsip-12-2025-09-18-21_41_51](https://github.com/user-attachments/assets/e0189c44-4d89-4ef3-a6ad-28757ba35cae)
 
 **4. Halaman Kategori Surat**
 *Menampilkan daftar kategori surat dengan opsi Tambah, Edit, dan Hapus.*
-![Halaman Kategori](<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-kategori-2025-09-18-21_42_24" src="https://github.com/user-attachments/assets/f4dfeafb-dc1a-4174-bd9a-72d1d87092f3" />
-)
+![screencapture-127-0-0-1-8000-kategori-2025-09-18-21_42_24](https://github.com/user-attachments/assets/f4dfeafb-dc1a-4174-bd9a-72d1d87092f3)
 
 **5. Halaman Tambah/Edit Kategori**
 *Form untuk menambah atau mengubah data kategori surat.*
-![Halaman Tambah Kategori](<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-kategori-create-2025-09-18-21_43_13" src="https://github.com/user-attachments/assets/522a1d22-918c-47ee-b257-be97e310d16d" />
-)(<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-kategori-1-edit-2025-09-18-21_43_25" src="https://github.com/user-attachments/assets/6f89ee8f-e548-42b7-808a-1d9064e40166" />
-)
+![screencapture-127-0-0-1-8000-kategori-create-2025-09-18-21_43_13](https://github.com/user-attachments/assets/522a1d22-918c-47ee-b257-be97e310d16d)
 
 **6. Halaman About**
 *Menampilkan informasi pembuat aplikasi.*
-![Halaman About](<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-about-2025-09-18-21_44_11" src="https://github.com/user-attachments/assets/b0234b31-bc48-48c8-8b55-8dd9c09bf419" />
-)
+![screencapture-127-0-0-1-8000-about-2025-09-18-21_44_11](https://github.com/user-attachments/assets/b0234b31-bc48-48c8-8b55-8dd9c09bf419)
