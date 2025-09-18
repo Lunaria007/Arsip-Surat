@@ -1,61 +1,77 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-kategori-create-2025-09-18-21_43_13" src="https://github.com/user-attachments/assets/ae7b6267-1b62-4112-87e7-2eb637950cdd" /># SISTEM MANAJEMEN ARSIP SURAT
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Aplikasi web sederhana yang dibangun untuk memenuhi tugas sertifikasi. Aplikasi ini berfungsi untuk mengelola dan mengarsipkan surat-surat resmi dalam format PDF secara digital.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Fitur Aplikasi
+- **Manajemen Arsip Surat**: Tambah (upload), lihat daftar, lihat detail, unduh, hapus, dan cari surat.
+- **Manajemen Kategori Surat**: Tambah, ubah, dan hapus data kategori surat.
+- **Halaman About**: Menampilkan informasi singkat mengenai pembuat aplikasi.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Cara Menggunakan Aplikasi
+Berikut adalah panduan penggunaan fitur-fitur utama pada aplikasi ini.
 
-## Learning Laravel
+1.  **Mengarsipkan Surat Baru (Upload)**
+    - Pada halaman utama, klik tombol **"Arsipkan Surat.."**.
+    - Isi semua kolom yang tersedia: Nomor Surat, Kategori, dan Judul.
+    - Klik **"Browse File..."** untuk memilih file surat dalam format PDF dari komputer Anda.
+    - Klik tombol **"Simpan"**. Anda akan dikembalikan ke halaman utama dan data surat baru akan muncul di tabel.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2.  **Mencari Surat**
+    - Pada halaman utama, ketikkan **judul surat** yang ingin dicari pada kolom "Cari surat".
+    - Klik tombol **"Cari!"**. Tabel akan otomatis memfilter dan hanya menampilkan surat yang sesuai dengan pencarian.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+3.  **Melihat Detail Surat**
+    - Pada tabel di halaman utama, klik tombol **"Lihat >>"** pada baris surat yang diinginkan.
+    - Anda akan diarahkan ke halaman detail yang menampilkan informasi lengkap beserta pratinjau file PDF.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+4.  **Mengunduh Surat**
+    - Klik tombol **"Unduh"** baik di halaman utama maupun di halaman detail. File PDF akan otomatis ter-download ke komputer Anda.
 
-## Laravel Sponsors
+5.  **Menghapus Surat**
+    - Klik tombol **"Hapus"** pada baris surat yang ingin dihapus.
+    - Sebuah kotak konfirmasi akan muncul. Klik **"OK"** untuk melanjutkan atau "Batal" untuk membatalkan.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+6.  **Mengelola Kategori**
+    - Pada menu sidebar di sebelah kiri, klik **"Kategori Surat"**.
+    - Di halaman ini, Anda bisa menambah, mengedit, atau menghapus kategori yang akan digunakan saat mengarsipkan surat.
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## Tampilan Aplikasi (Screenshots)
 
-## Contributing
+Berikut adalah beberapa tangkapan layar dari aplikasi Arsip Surat:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**1. Halaman Utama (Daftar Arsip Surat)**
+*Menampilkan semua surat yang telah diarsipkan dengan fungsionalitas pencarian.*
+![Halaman Utama](<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-2025-09-18-21_34_44" src="https://github.com/user-attachments/assets/1810a473-5b46-47e7-80da-2a4b507653fd" />)
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+**2. Halaman Unggah Surat**
+*Form untuk mengunggah surat baru beserta file PDF.*
+![Halaman Unggah](<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-arsip-create-2025-09-18-21_36_46" src="https://github.com/user-attachments/assets/4dc2142a-1285-4ffb-adcf-211324179b76" />
+)
 
-## Security Vulnerabilities
+**3. Halaman Lihat Surat**
+*Menampilkan detail surat beserta pratinjau file PDF.*
+![Halaman Lihat](<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-arsip-12-2025-09-18-21_41_51" src="https://github.com/user-attachments/assets/e0189c44-4d89-4ef3-a6ad-28757ba35cae" />
+)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+**4. Halaman Kategori Surat**
+*Menampilkan daftar kategori surat dengan opsi Tambah, Edit, dan Hapus.*
+![Halaman Kategori](<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-kategori-2025-09-18-21_42_24" src="https://github.com/user-attachments/assets/f4dfeafb-dc1a-4174-bd9a-72d1d87092f3" />
+)
 
-## License
+**5. Halaman Tambah/Edit Kategori**
+*Form untuk menambah atau mengubah data kategori surat.*
+![Halaman Tambah Kategori](<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-kategori-create-2025-09-18-21_43_13" src="https://github.com/user-attachments/assets/522a1d22-918c-47ee-b257-be97e310d16d" />
+)(<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-kategori-1-edit-2025-09-18-21_43_25" src="https://github.com/user-attachments/assets/6f89ee8f-e548-42b7-808a-1d9064e40166" />
+)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**6. Halaman About**
+*Menampilkan informasi pembuat aplikasi.*
+![Halaman About](<img width="1910" height="1042" alt="screencapture-127-0-0-1-8000-about-2025-09-18-21_44_11" src="https://github.com/user-attachments/assets/b0234b31-bc48-48c8-8b55-8dd9c09bf419" />
+)
